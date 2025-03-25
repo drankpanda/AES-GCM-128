@@ -1,0 +1,56 @@
+START LOG: 25.03.2025 - 23:14:36
+==================== Start ENCRYPTION ====================
+Nonce: 0899a016701641c10aedeea9
+Original text (with pad): 4c6f72656d20697073756d20646f6c6f722073697420616d6574060606060606
+Ciphertext: 7c5a36a22172042543b534a2fd6577fd3ac1c2b39f5762af4501d3bb52c0a2ac
+Tag: 927b236335adea396e07d836cb3d03e8
+====================  END  ENCRYPTION ====================
+
+==================== Start DECRYPTION ====================
+Decrypted Text: 4c6f72656d20697073756d20646f6c6f722073697420616d6574
+====================  END  DECRYPTION ====================
+
+==================== NIST VECTORS ENCRYPTION BEGIN ====================
+
+==================== Start ENCRYPTION ====================
+Nonce: 3c819d9a9bed087615030b65
+Original text (with pad): 
+Ciphertext: 
+Tag: 250327c674aaf477aef2675748cf6971
+====================  END  ENCRYPTION ====================
+
+==================== Start ENCRYPTION ====================
+Nonce: ee283a3fc75575e33efd4887
+Original text (with pad): d5de42b461646c255c87bd2962d3b9a2
+Ciphertext: 2ccda4a5415cb91e135c2a0f78c9b2fd
+Tag: b36d1df9b9d5e596f83e8b7f52971cb3
+====================  END  ENCRYPTION ====================
+
+==================== Start ENCRYPTION ====================
+Nonce: b3d8cc017cbb89b39e0f67e2
+Original text (with pad): c3b3c41f113a31b73d9a5cd432103069
+Ciphertext: 93fe7d9e9bfd10348a5606e5cafa7354
+Tag: 0032a1dc85f1c9786925a2e71d8272dd
+====================  END  ENCRYPTION ====================
+
+NIST encryption test vectors passed successfully.
+==================== NIST VECTORS ENCRYPTION  END  ====================
+
+==================== NIST VECTORS DECRYPTION BEGIN ====================
+
+==================== Start DECRYPTION ====================
+====================  END  DECRYPTION ====================
+
+==================== Start DECRYPTION ====================
+Decrypted Text: 28286a321293253c3e0aa2704a278032
+====================  END  DECRYPTION ====================
+
+==================== Start DECRYPTION ====================
+Decrypted Text: ecafe96c67a1646744f1c891f5e69427
+====================  END  DECRYPTION ====================
+
+NIST decryption test vectors passed successfully.
+==================== NIST VECTORS DECRYPTION  END  ====================
+
+END LOG: 25.03.2025 - 23:14:36
+
