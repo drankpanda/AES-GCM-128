@@ -30,7 +30,7 @@ def gf_2_128_mul(x: int, y: int):
     assert x < (1 << 128)
     assert y < (1 << 128)
 
-    R = 0xE1000000000000000000000000000000  # Неприводимый многочлен для GF(2¹²⁸)
+    R = 0xE1000000000000000000000000000000  # Irreducible polynomial for GF(2¹²⁸)
     z = 0
     for i in range(128):
         if (x >> (127 - i)) & 1:
